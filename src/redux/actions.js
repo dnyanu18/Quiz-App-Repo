@@ -50,16 +50,7 @@ import {
     };
   };
   
-  // Action creator to handle score change
- /* export const handleScoreChange = (payload) => {
-    if (!payload) {
-      console.error("Payload for handleScoreChange is undefined or invalid.");
-    }
-    return {
-      type: CHANGE_SCORE,
-      payload,
-    };
-  };*/
+  
   export const handleScoreChange = (score) => {
     return {
       type: "CHANGE_SCORE",
